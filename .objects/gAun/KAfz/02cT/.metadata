@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Chrome localhost.localdomain - VMware ESXi",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Id": "02cTQDZTI0GsNex65AP_Cw",
+  "Reference": "K5harpqqo0quHM0-3bGOBA/02cTQDZTI0GsNex65AP_Cw",
+  "ParentRef": "K5harpqqo0quHM0-3bGOBA/KAfzlf7dzU6TYaRFqKtiYA",
+  "Created": "2023-11-29T13:31:05.8657012Z",
+  "Updated": "2023-11-29T13:31:05.8657012Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

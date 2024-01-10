@@ -1,0 +1,148 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="login_to_EsxiFirst" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="654,1179" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="login_to_EsxiFirst" sap:VirtualizedContainerService.HintSize="546,1114" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Log in - VMware ESXi" sap:VirtualizedContainerService.HintSize="484,1003" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="a33bf981-72ff-460d-9d2b-b445c80e1004" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,786" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter User Name" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a33bf981-72ff-460d-9d2b-b445c80e1004" Text="root" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.30.44.85/ui/#/login" CvElementArea="167, 457, 204, 26" CvType="InputBox" DesignTimeRectangle="169, 511, 200, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT username'" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='margeTextInput ng-pristine ng-valid ng-empty ng-touched' aaname='' /&gt;" Guid="5fadcf18-c902-4d4d-9131-58918829e7e8" InformativeScreenshot="698a51f68d4f30258d262d1e27ff122a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - VMware ESXi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="52, 511, 361, 17" ElementType="Text" FriendlyName="'User name'" FullSelectorArgument="&lt;webctrl id='username-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='username-label' tag='LABEL' type='' class='loginLabel' aaname='User name                             ' check:innerText='User name' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAW0AAAAVCAYAAACNB786AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGDSURBVHhe7ZjbbcMwDEWFztYdmiYrdIAukD7+vUK6pmtRogRbTFHkw2GIc4HjK5L5jC4IpXT8miEm0zTNCKFR+W5Yd8YjT89vc3r/6T35nL5LgYdyQhshWxLa/7xH9/YS2pfeT8fPcmiubPvMH21OaCNkq2/at9+vveb2pg0hIbQRstVD2z9jaL/WRBdfoA5TE9oI2Sqh/ff98VL30K5z+QGEhNBGyNbjbdqX3pPkhpAQ2gjZktA27oxH2qatPfm0tRyP5IQ2QrbKpm3fG28+Po/kD4SE0EbIVpxNW6EOUec/JgDYbO+L17q9aWsvHT6Ww4K6su0zZ86cOfPd533Trr1yyAmO4ziOe/P188jSv5r4OI7j+N19tWnnvhxasivU1NTU1B7q/qZde+lwLundXNn2mTNnzpz53vO2aetMPjm9cRzHcXc+Po+skl6hpqampvZQ90279soPAADAI+1NW3vppaY3juM47s5Xm3buywEAAFwyPo/k5AYAAJe00Jb6PP8C0PxjVFglKiMAAAAASUVORK5CYII=" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Enter Password" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="a33bf981-72ff-460d-9d2b-b445c80e1004" Text="Master@1234" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.30.44.85/ui/#/login" CvElementArea="168, 547, 202, 25" CvType="InputBox" DesignTimeRectangle="169, 548, 200, 23" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='margeTextInput ng-valid ng-touched ng-dirty ng-valid-parse ng-empty' aaname='' /&gt;" Guid="3bed0a09-1efe-4703-8087-5888911e7649" InformativeScreenshot="44a238be02f6b82d80a4475e50e1fd08.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - VMware ESXi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="168, 547, 202, 25" CvTextArea="51, 548, 59, 13" CvTextArgument="Password" CvType="InputBox" DesignTimeRectangle="52, 548, 361, 17" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl id='password-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password-label' tag='LABEL' type='' class='loginLabel' aaname='Password                             ' check:innerText='Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAW0AAAAVCAYAAACNB786AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANSSURBVHhe7ZqxbhsxDIYPfbY+Qu30Ibpl6dq0fQOPHpIhfYkg9Rski+HViz158BLA41UUSUkn0albGLBO/n+AoUhRujsg+o44uOs+/+xhMBgMVqd9+Pil774+xlx386PvbtwAHh4eHr46z9D+FfN+QPSGb87PZjMYDHbETj1Hl/YB2ppnosNaNPrHhCColIe2cWZqtNhpS44HRHD41jygDUG2GNqnnaNL+/BNW/PdlCadTV/7lTxQqv3ySealTi2sy3xV8/JM29f/XG/4Ec0D2hBkK3Ta75yfWuaPdNpkCeAkN99S4tA/P2jN2Kx8pmsyQBuCbAVoj8BKaE+/80A77Y0AjvIP637vUr7bdvHt8kAVIoG5rJ9vJE16W/e3lKe3heyhWi2o/ql/fnOB1mlNFut1+eUhohq9v8XOp1Zb9h7O6fU2u6TTpuvG+/We7s/KNzIPaEOQLQ/tys+vzg+gTXk/8GZ0pSk8/XjXz9NaBajCc5GtSeHs6hi+vAe/AAT8sl7nOOa5dE1xj7ou3LNcb7CPU/pMV2SANgTZGl+nTd+0JcdEJ0s6bclx90zw1Jqs29bOOEBXOmmp7aYKUSetVRO4U326J8X+ur6+vKcIexfLdcM10xeGry/XX5MB2hBkiztt+9zUZqHT1lycFMBlCkBUMHuYZp83UjiLinWqsEaBuua14vfLdQRtAWFA+18M0IYgW21B+wjguOve9XMf59COFrtmrVWLLwWFKnfUh9Bxp9/FGcTlPZ0C7VgPaEMQVOoqoG3BUqE9mBsAPdszh2zowrN9E+APXxZ/2S90/FKv+wHaEAQlGh+0H2Oum9y5gbPJiwDxReLE0nkv1x0rHGU+7ZI9hO9l7b10v6rB/rInAT6t1VhssHe6/rdCO9YO7lN/PUJrwrwz8/naiwFtCLLloZ2dl1rj0GlrLhLdBWGMuIUY0IYgW2Wnff7zd664/DySEB3WlgHaEGRr0GlXbmWnTX+I3t5LEnETMaANQba4037//NQSx2/aMt9NvvEAvjkPaEOQrdhpn36eLuWHnbbL8wDWogHaEGQrQrt+Kz+PfCKiO4NvzgPaEGSLoW2fm9p8hLbkI9GpSMeIW4gBbQiyVXba5z9/54rDN20f3/V/AKVN4t8pMdJiAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a33bf981-72ff-460d-9d2b-b445c80e1004" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://172.30.44.85/ui/#/login" CvElementArea="274, 602, 96, 25" CvTextArea="305, 607, 35, 14" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="274, 602, 97, 24" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl id='submit' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='submit' tag='INPUT' type='submit' class='button blue' aaname='Log in' check:text='Log in' /&gt;" Guid="daf575e4-0ecf-4140-8480-2c29c1b603f9" InformativeScreenshot="8f37fd26f4e290b9f08284cdb69e2cc3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log in - VMware ESXi' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="fe05e966139914496eab13c829553392.jpg" Selector="&lt;html app='chrome.exe' title='Log in - VMware ESXi' /&gt;" Title="Log in - VMware ESXi" Url="https://172.30.44.85/ui/#/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
